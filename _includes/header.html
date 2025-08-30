@@ -1,0 +1,55 @@
+<header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+        <!-- Brand/Logo -->
+        <a class="navbar-brand fw-bold text-primary" href="{{ '/' | relative_url }}">
+            <i class="bi bi-tools me-2"></i>
+            Handyman Services
+        </a>
+        
+        <!-- Mobile Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navigation Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="{{ '/services/roofing.html' | relative_url }}">Roofing</a></li>
+                        <li><a class="dropdown-item" href="{{ '/services/gutters.html' | relative_url }}">Gutters</a></li>
+                        <li><a class="dropdown-item" href="{{ '/services/fences.html' | relative_url }}">Fences</a></li>
+                        <li><a class="dropdown-item" href="{{ '/services/interior-repairs.html' | relative_url }}">Interior Repairs</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/gallery.html' | relative_url }}">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/testimonials.html' | relative_url }}">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/about.html' | relative_url }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/contact.html' | relative_url }}">Contact</a>
+                </li>
+                <li class="nav-item ms-lg-2">
+                    <a class="btn btn-primary" href="#estimate-form" onclick="scrollToForm()">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Get Estimate
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- Spacer to prevent content from hiding behind fixed navbar -->
+<div style="height: 76px;"></div>

@@ -1,0 +1,79 @@
+# Site settings
+title: "Handyman Services - Nanaimo & Parksville"
+description: "Professional roofing, gutters, fences, and interior repair services in Nanaimo, Parksville, and surrounding areas. Get your free estimate today!"
+url: "https://your-domain.com" # Replace with actual domain
+baseurl: ""
+
+# Author information
+author:
+  name: "Handyman Services"
+  email: "info@handymanservices.com"
+  phone: "(250) XXX-XXXX"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  services:
+    output: true
+    permalink: /services/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - DEVELOPMENT_PLAN.md
+
+# Include in processing
+include:
+  - _pages
+  - _services
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/:num/"
+
+# Social media
+social:
+  facebook: "https://facebook.com/handymanservices"
+  instagram: "https://instagram.com/handymanservices"
+  twitter: "https://twitter.com/handymanservices"
+
+# Service areas
+service_areas:
+  - "Nanaimo"
+  - "Parksville"
+  - "Qualicum Beach"
+  - "Lantzville"
+  - "Nanoose Bay"
+  - "Bowser"
+  - "Deep Bay"
+  - "Fanny Bay"
