@@ -57,9 +57,9 @@ include:
   - _pages
   - _services
 
-# Pagination
-paginate: 5
-paginate_path: "/blog/:num/"
+# Pagination (commented out until jekyll-paginate is added)
+# paginate: 5
+# paginate_path: "/blog/:num/"
 
 # Social media
 social:
