@@ -1,0 +1,35 @@
+# Russian translations
+nav:
+  home: "Главная"
+  services: "Услуги"
+  gallery: "Галерея"
+  testimonials: "Отзывы"
+  about: "О нас"
+  contact: "Контакты"
+  get_estimate: "Получить оценку"
+
+services:
+  roofing: "Кровельные работы"
+  gutters: "Водосточные системы"
+  fences: "Заборы"
+  interior_repairs: "Внутренние ремонты"
+
+hero:
+  title: "Профессиональные услуги мастера"
+  subtitle: "Кровельные работы, водосточные системы, заборы и внутренние ремонты в Нанаймо и Парксвилле"
+  cta: "Получить бесплатную оценку"
+
+footer:
+  company_info: "Информация о компании"
+  services: "Услуги"
+  quick_links: "Быстрые ссылки"
+  contact_info: "Контактная информация"
+  follow_us: "Следите за нами"
+  copyright: "© 2024 Услуги мастера. Все права защищены."
+
+buttons:
+  learn_more: "Узнать больше"
+  view_gallery: "Посмотреть полную галерею"
+  read_reviews: "Читать больше отзывов"
+  get_estimate: "Получить бесплатную оценку"
+  contact_us: "Связаться с нами"

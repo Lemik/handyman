@@ -1,0 +1,35 @@
+# French translations
+nav:
+  home: "Accueil"
+  services: "Services"
+  gallery: "Galerie"
+  testimonials: "Témoignages"
+  about: "À propos"
+  contact: "Contact"
+  get_estimate: "Obtenir un devis"
+
+services:
+  roofing: "Toiture"
+  gutters: "Gouttières"
+  fences: "Clôtures"
+  interior_repairs: "Réparations intérieures"
+
+hero:
+  title: "Services de Bricolage Professionnels"
+  subtitle: "Toiture, Gouttières, Clôtures et Réparations Intérieures à Nanaimo et Parksville"
+  cta: "Obtenir un Devis Gratuit"
+
+footer:
+  company_info: "Informations sur l'entreprise"
+  services: "Services"
+  quick_links: "Liens rapides"
+  contact_info: "Informations de contact"
+  follow_us: "Suivez-nous"
+  copyright: "© 2024 Services de Bricolage. Tous droits réservés."
+
+buttons:
+  learn_more: "En savoir plus"
+  view_gallery: "Voir la galerie complète"
+  read_reviews: "Lire plus de témoignages"
+  get_estimate: "Obtenir un devis gratuit"
+  contact_us: "Nous contacter"

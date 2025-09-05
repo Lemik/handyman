@@ -17,12 +17,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Collections
-collections:
-  services:
-    output: true
-    permalink: /services/:name/
-
 # Defaults
 defaults:
   - scope:
@@ -35,11 +29,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
 
 # Exclude from processing
 exclude:
@@ -55,7 +44,6 @@ exclude:
 # Include in processing
 include:
   - _pages
-  - _services
 
 # Pagination (commented out until jekyll-paginate is added)
 # paginate: 5
@@ -77,3 +65,10 @@ service_areas:
   - "Bowser"
   - "Deep Bay"
   - "Fanny Bay"
+
+# Simple multilingual setup
+langs:
+  en: "English"
+  fr: "Français"
+  uk: "Українська"
+  ru: "Русский"

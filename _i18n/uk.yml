@@ -1,0 +1,35 @@
+# Ukrainian translations
+nav:
+  home: "Головна"
+  services: "Послуги"
+  gallery: "Галерея"
+  testimonials: "Відгуки"
+  about: "Про нас"
+  contact: "Контакти"
+  get_estimate: "Отримати оцінку"
+
+services:
+  roofing: "Покрівельні роботи"
+  gutters: "Водостоки"
+  fences: "Огорожі"
+  interior_repairs: "Внутрішні ремонти"
+
+hero:
+  title: "Професійні послуги майстра"
+  subtitle: "Покрівельні роботи, водостоки, огорожі та внутрішні ремонти в Нанаймо та Парксвіллі"
+  cta: "Отримати безкоштовну оцінку"
+
+footer:
+  company_info: "Інформація про компанію"
+  services: "Послуги"
+  quick_links: "Швидкі посилання"
+  contact_info: "Контактна інформація"
+  follow_us: "Слідкуйте за нами"
+  copyright: "© 2024 Послуги майстра. Всі права захищені."
+
+buttons:
+  learn_more: "Дізнатися більше"
+  view_gallery: "Переглянути повну галерею"
+  read_reviews: "Читати більше відгуків"
+  get_estimate: "Отримати безкоштовну оцінку"
+  contact_us: "Зв'язатися з нами"

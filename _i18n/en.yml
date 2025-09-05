@@ -1,0 +1,35 @@
+# English translations
+nav:
+  home: "Home"
+  services: "Services"
+  gallery: "Gallery"
+  testimonials: "Testimonials"
+  about: "About"
+  contact: "Contact"
+  get_estimate: "Get Estimate"
+
+services:
+  roofing: "Roofing"
+  gutters: "Gutters"
+  fences: "Fences"
+  interior_repairs: "Interior Repairs"
+
+hero:
+  title: "Professional Handyman Services"
+  subtitle: "Roofing, Gutters, Fences & Interior Repairs in Nanaimo & Parksville"
+  cta: "Get Free Estimate"
+
+footer:
+  company_info: "Company Info"
+  services: "Services"
+  quick_links: "Quick Links"
+  contact_info: "Contact Info"
+  follow_us: "Follow Us"
+  copyright: "© 2024 Handyman Services. All rights reserved."
+
+buttons:
+  learn_more: "Learn More"
+  view_gallery: "View Full Gallery"
+  read_reviews: "Read More Reviews"
+  get_estimate: "Get Free Estimate"
+  contact_us: "Contact Us"

@@ -1,5 +1,31 @@
 // Main JavaScript for Handyman Services Website
 
+// Language detection and switching
+function detectBrowserLanguage() {
+    const browserLang = navigator.language || navigator.userLanguage;
+    const supportedLangs = ['en', 'fr', 'uk', 'ru'];
+    
+    // Extract primary language code
+    const primaryLang = browserLang.split('-')[0];
+    
+    // Check if browser language is supported
+    if (supportedLangs.includes(primaryLang)) {
+        // Check if we're not already on the correct language
+        const currentLang = document.documentElement.lang || 'en';
+        if (currentLang !== primaryLang) {
+            // Redirect to the appropriate language version
+            const currentPath = window.location.pathname;
+            const newPath = primaryLang === 'en' ? 
+                currentPath.replace(/^\/(fr|uk|ru)\//, '/') : 
+                currentPath.replace(/^\/(fr|uk|ru)\//, `/${primaryLang}/`);
+            
+            if (newPath !== currentPath) {
+                window.location.href = newPath;
+            }
+        }
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all components
     initSmoothScrolling();
@@ -7,7 +33,37 @@ document.addEventListener('DOMContentLoaded', function() {
     initAnimations();
     initTestimonialSlider();
     initMobileMenu();
+    updateCurrentLanguage();
+    
+    // Only detect language on first visit (no redirect if user manually changed language)
+    if (!localStorage.getItem('languageSelected')) {
+        detectBrowserLanguage();
+    }
 });
+
+// Track language selection
+document.addEventListener('click', function(e) {
+    if (e.target.closest('.language-switcher a') || e.target.closest('#languageDropdown a')) {
+        localStorage.setItem('languageSelected', 'true');
+    }
+});
+
+// Update current language indicator
+function updateCurrentLanguage() {
+    const currentLang = document.getElementById('current-lang');
+    if (currentLang) {
+        const path = window.location.pathname;
+        if (path.startsWith('/fr/')) {
+            currentLang.textContent = 'FR';
+        } else if (path.startsWith('/uk/')) {
+            currentLang.textContent = 'UK';
+        } else if (path.startsWith('/ru/')) {
+            currentLang.textContent = 'RU';
+        } else {
+            currentLang.textContent = 'EN';
+        }
+    }
+}
 
 // Smooth scrolling for anchor links
 function initSmoothScrolling() {
@@ -24,18 +80,26 @@ function initSmoothScrolling() {
     // Make scrollToForm globally available
     window.scrollToForm = scrollToForm;
 
-    // Handle all anchor links with smooth scrolling
+    // Handle only internal page anchor links with smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
+        // Skip if it's a navigation link to another page
+        if (anchor.getAttribute('href') === '#services' || 
+            anchor.getAttribute('href') === '#estimate-form' ||
+            anchor.getAttribute('href') === '#roofing-estimate' ||
+            anchor.getAttribute('href') === '#gutter-estimate' ||
+            anchor.getAttribute('href') === '#fence-estimate' ||
+            anchor.getAttribute('href') === '#interior-estimate') {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        }
     });
 }
 
