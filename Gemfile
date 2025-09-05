@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-# Jekyll core
-gem "jekyll", "~> 4.3"
+# GitHub Pages compatible gems
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-multiple-languages-plugin"
 
 # Jekyll plugins
 group :jekyll_plugins do

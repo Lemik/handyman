@@ -1,8 +1,8 @@
 # Site settings
 title: "Handyman Services - Nanaimo & Parksville"
 description: "Professional roofing, gutters, fences, and interior repair services in Nanaimo, Parksville, and surrounding areas. Get your free estimate today!"
-url: "https://your-domain.com" # Replace with actual domain
-baseurl: ""
+url: "https://yourusername.github.io" # Replace with your GitHub username
+baseurl: "/handyman" # Replace with your repository name
 
 # Author information
 author:
@@ -16,6 +16,14 @@ permalink: /:title/
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
+
+# GitHub Pages specific settings
+github: [metadata]
+safe: true
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 # Defaults
 defaults:
