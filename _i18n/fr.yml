@@ -15,7 +15,7 @@ services:
   interior_repairs: "Réparations intérieures"
 
 hero:
-  title: "Services de Bricolage Professionnels"
+  title: "Services de Bricolage Nanaimo"
   subtitle: "Toiture, Gouttières, Clôtures et Réparations Intérieures à Nanaimo et Parksville"
   cta: "Obtenir un Devis Gratuit"
 
@@ -25,7 +25,7 @@ footer:
   quick_links: "Liens rapides"
   contact_info: "Informations de contact"
   follow_us: "Suivez-nous"
-  copyright: "© 2024 Services de Bricolage. Tous droits réservés."
+  copyright: "© 2024 Services de Bricolage Nanaimo. Tous droits réservés."
 
 buttons:
   learn_more: "En savoir plus"

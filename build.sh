@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Handyman Services Website Build Script
+# Nanaimo Handyman Services Website Build Script
 
-echo "🏠 Building Handyman Services Website..."
+echo "🏠 Building Nanaimo Handyman Services Website..."
 
 # Check if Jekyll is installed
 if ! command -v jekyll &> /dev/null; then

@@ -1,4 +1,4 @@
-// Main JavaScript for Handyman Services Website
+// Main JavaScript for Nanaimo Handyman Services Website
 
 // Language detection and switching
 function detectBrowserLanguage() {

@@ -1,4 +1,4 @@
-# Handyman Services Website
+# Nanaimo Handyman Services Website
 
 A professional, modern Jekyll-based static website for a handyman business specializing in roofing, gutters, fences, and interior repairs.
 

@@ -1,4 +1,4 @@
-/* Custom CSS for Handyman Services Website */
+/* Custom CSS for Nanaimo Handyman Services Website */
 
 /* CSS Variables for consistent theming */
 :root {
@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
 .display-1, .display-2, .display-3, .display-4 {
     font-weight: 700;
 }
-
 /* Custom Button Styles */
 .btn-primary {
     background-color: var(--primary-color);
@@ -210,6 +209,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Section Styling */
 .section-padding {

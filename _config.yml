@@ -1,12 +1,12 @@
 # Site settings
-title: "Handyman Services - Nanaimo & Parksville"
+title: "Nanaimo Handyman Services"
 description: "Professional roofing, gutters, fences, and interior repair services in Nanaimo, Parksville, and surrounding areas. Get your free estimate today!"
 url: "https://yourusername.github.io" # Replace with your GitHub username
 baseurl: "/handyman" # Replace with your repository name
 
 # Author information
 author:
-  name: "Handyman Services"
+  name: "Nanaimo Handyman Services"
   email: "info@handymanservices.com"
   phone: "(250) XXX-XXXX"
 
