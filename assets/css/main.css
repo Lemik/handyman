@@ -312,6 +312,12 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(0);
 }
 
+/* Fallback for gallery items - make them visible if JS doesn't load */
+.gallery-item.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;

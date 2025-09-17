@@ -20,7 +20,7 @@ description: View our completed projects and transformations. See the quality of
     </div>
 </section>
 
-<!-- Gallery Filter -->
+<!-- Gallery Filter 
 <section class="section-padding bg-light-gray">
     <div class="container">
         <div class="row justify-content-center">
@@ -35,14 +35,14 @@ description: View our completed projects and transformations. See the quality of
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Gallery Grid -->
 <section class="section-padding">
     <div class="container">
         <div class="row g-4" id="gallery-grid">
             <!-- Roofing Projects -->
-            <div class="col-lg-4 col-md-6 gallery-item" data-category="roofing">
+     <!--       <div class="col-lg-4 col-md-6 gallery-item" data-category="roofing">
                 <div class="gallery-item fade-in">
                     <img src="https://via.placeholder.com/400x300/0d6efd/ffffff?text=Roof+Installation" alt="Roof installation project" class="img-fluid">
                     <div class="gallery-overlay">
@@ -66,29 +66,16 @@ description: View our completed projects and transformations. See the quality of
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             
             <!-- Gutter Projects -->
             <div class="col-lg-4 col-md-6 gallery-item" data-category="gutters">
                 <div class="gallery-item fade-in">
-                    <img src="{{ '/assets/images/gutter-a.jpeg'}}" alt="Gutter fixes project" class="img-fluid">
+                    <img src="{{ '/assets/images/gutters-a.jpeg'  | relative_url }}" alt="Gutter fixes project" class="img-fluid">
                     <div class="gallery-overlay">
                         <div class="gallery-content">
                             <h5>New Gutter System</h5>
                             <p>Qualicum Beach, BC</p>
-                            <span class="badge bg-success">Gutters</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 gallery-item" data-category="gutters">
-                <div class="gallery-item fade-in">
-                    <img src="https://via.placeholder.com/400x300/157347/ffffff?text=Gutter+Cleaning" alt="Gutter cleaning project" class="img-fluid">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <h5>Gutter Cleaning & Repair</h5>
-                            <p>Lantzville, BC</p>
                             <span class="badge bg-success">Gutters</span>
                         </div>
                     </div>
@@ -146,7 +133,7 @@ description: View our completed projects and transformations. See the quality of
             </div>
             <div class="col-lg-4 col-md-6 gallery-item" data-category="fences">
                 <div class="gallery-item fade-in">
-                    <img src="{{ '/assets/images/f5.jpeg'| relative_url}}" alt="Privacy fence project" class="img-fluid">
+                    <img src="{{ '/assets/images/f5.jpeg' | relative_url }}" alt="Privacy fence project" class="img-fluid">
                     <div class="gallery-overlay">
                         <div class="gallery-content">
                             <h5>Custom Privacy Fence</h5>
@@ -156,24 +143,12 @@ description: View our completed projects and transformations. See the quality of
                     </div>
                 </div>
             </div>
-            
-            <div class="col-lg-4 col-md-6 gallery-item" data-category="fences">
-                <div class="gallery-item fade-in">
-                    <img src="https://via.placeholder.com/400x300/e55a00/ffffff?text=Gate+Installation" alt="Gate installation project" class="img-fluid">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <h5>Automatic Gate Installation</h5>
-                            <p>Bowser, BC</p>
-                            <span class="badge bg-warning">Fences</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
 <!-- Interior Projects -->
             <div class="col-lg-4 col-md-6 gallery-item" data-category="interior">
                 <div class="gallery-item fade-in">
-                    <img src="https://via.placeholder.com/400x300/6c757d/ffffff?text=Interior+Repair" alt="Interior repair project" class="img-fluid">
+                    <img src="{{ '/assets/images/h1.jpeg' | relative_url }}" alt="Interior repair project" class="img-fluid">
                     <div class="gallery-overlay">
                         <div class="gallery-content">
                             <h5>Drywall Repair & Painting</h5>
@@ -183,7 +158,7 @@ description: View our completed projects and transformations. See the quality of
                     </div>
                 </div>
             </div>
-            
+   <!--          
             <div class="col-lg-4 col-md-6 gallery-item" data-category="interior">
                 <div class="gallery-item fade-in">
                     <img src="https://via.placeholder.com/400x300/495057/ffffff?text=Flooring+Installation" alt="Flooring installation project" class="img-fluid">
@@ -247,7 +222,7 @@ description: View our completed projects and transformations. See the quality of
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -266,18 +241,18 @@ description: View our completed projects and transformations. See the quality of
                     <h4 class="mb-3">Roof Replacement - Nanaimo</h4>
                     <div class="row g-3">
                         <div class="col-6">
-                            <img src="https://via.placeholder.com/300x200/dc3545/ffffff?text=Before" alt="Before roof replacement" class="img-fluid rounded">
+                            <img src="{{ '/assets/images/gutters-b.jpeg' | relative_url }}" alt="Before roof replacement" class="img-fluid rounded">
                             <p class="text-center mt-2 text-muted">Before</p>
                         </div>
                         <div class="col-6">
-                            <img src="https://via.placeholder.com/300x200/198754/ffffff?text=After" alt="After roof replacement" class="img-fluid rounded">
+                            <img src="{{ '/assets/images/gutters-a.jpeg' | relative_url }}" alt="After roof replacement" class="img-fluid rounded">
                             <p class="text-center mt-2 text-muted">After</p>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-lg-6">
+    <!--        <div class="col-lg-6">
                 <div class="before-after-card fade-in">
                     <h4 class="mb-3">Fence Installation - Parksville</h4>
                     <div class="row g-3">
@@ -290,7 +265,7 @@ description: View our completed projects and transformations. See the quality of
                             <p class="text-center mt-2 text-muted">After</p>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
