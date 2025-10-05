@@ -1,0 +1,22 @@
+{
+  "name": "handyman-estimate-lambda",
+  "version": "1.0.0",
+  "description": "Lambda function to handle estimate requests from handyman website",
+  "main": "lambda-estimate-handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1691.0"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "ses",
+    "email",
+    "handyman"
+  ],
+  "author": "Leonid Dushin",
+  "license": "MIT"
+}
+
